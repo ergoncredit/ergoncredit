@@ -8,7 +8,7 @@ setup(
   author = 'Pedro Borges',                   # Type in your name
   author_email = 'pedro.borges@ergoncredit.com.br',      # Type in your E-Mail
   url = 'https://github.com/ergoncredit/ergoncredit',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/ergoncredit/ergoncredit/archive/refs/tags/1.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/ergoncredit/ergoncredit/archive/refs/tags/1.02.tar.gz',    # I explain this later on
   keywords = ['Backoffice', 'Api', 'Ergoncredit'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
