@@ -1,6 +1,6 @@
 import browser_cookie3, requests, webbrowser
 
-def ergoncredit(api, mode="auto", user="user", password="password"):
+def erg(api, mode="auto", user="user", password="password"):
         
     loginUrl = "https://backoffice.ergoncredit.com.br/signin#!/"
     
