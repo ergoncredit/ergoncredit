@@ -1,1 +1,1 @@
-import ergoncredit.ergon
+from ergoncredit.ergon import ergoncredit
