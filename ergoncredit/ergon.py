@@ -1,4 +1,5 @@
-import browser_cookie3, requests, webbrowser
+import browser_cookie3, requests, webbrowser, pandas as pd
+from sqlalchemy import create_engine
 
 def erg(api, mode="auto", user="user", password="password"):
         
@@ -22,3 +23,9 @@ def erg(api, mode="auto", user="user", password="password"):
             if json.status_code == 401:
                 return "Manual mode with invalid credentials."
     return json
+
+def MySQLConect(mysql, query):
+    post = mysql["mode"] + '://' + mysql["user"] + ':' + mysql["password"] + '@' + mysql["server"] + '/' + mysql["database"]
+    sqlEngine       = create_engine(post, pool_recycle=3600)
+    dbConnection    = sqlEngine.connect()
+    return pd.read_sql(query, dbConnection)
