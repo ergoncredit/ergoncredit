@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'ergoncredit',
   packages = ['ergoncredit'],
-  version = '1.3',
+  version = '1.4',
   license='MIT',
   description = 'A simple module for ergoncredit environment.',
   author = 'Pedro Borges',
   author_email = 'pedro.borges@ergoncredit.com.br', 
   url = 'https://github.com/ergoncredit/ergoncredit', 
-  download_url = 'https://github.com/ergoncredit/ergoncredit/archive/refs/tags/1.3.tar.gz',
+  download_url = 'https://github.com/ergoncredit/ergoncredit/archive/refs/tags/1.4.tar.gz',
   keywords = ['Backoffice', 'Api', 'Ergoncredit'],
   install_requires=[ 
           'requests',
